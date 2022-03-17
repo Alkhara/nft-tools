@@ -11,7 +11,7 @@ import sys
 import csv
 import os
 
-# Load up your private key / api key etc.
+# Load up your keys
 load_dotenv()
 infura_key = str(os.getenv('INFURA_KEY'))
 etherscan_key = str(os.getenv('ETHERSCAN_KEY'))
