@@ -1,5 +1,5 @@
 # App Specific
-reports/*
+reports/*.json
 
 
 # Byte-compiled / optimized / DLL files

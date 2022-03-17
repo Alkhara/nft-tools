@@ -103,7 +103,7 @@ def getOwners(nftIndexStart):
 def write(owners):
 	# Get Todays Date
 	now = datetime.datetime.now()
-	with open('reports/' + collection + '-' + str(now.year) + '-' + str(now.month) + '-' + str(now.day) + 'owners.json', 'w') as result:
+	with open('reports/' + s['collection'] + '-' + str(now.year) + '-' + str(now.month) + '-' + str(now.day) + 'owners.json', 'w') as result:
 		json.dump(owners, result, indent=4)
 
 
